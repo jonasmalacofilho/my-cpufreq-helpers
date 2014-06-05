@@ -1,0 +1,4 @@
+#!/bin/bash -x
+
+echo 1 > /sys/devices/system/cpu/cpufreq/boost
+cpufreq-set-all -g performance
